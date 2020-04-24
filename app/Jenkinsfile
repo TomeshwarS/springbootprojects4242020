@@ -1,0 +1,17 @@
+
+
+node {
+
+stage('SCM Checkout'){
+git 'https://github.com/TomeshwarS/springbootprojects4242020/new/master/app'
+
+}
+
+stage('Complile-Package'){
+sh 'mvn package'
+
+}
+
+
+
+}
