@@ -2,7 +2,7 @@
 node {
 
 stage('SCM Checkout'){
-git 'https://github.com/TomeshwarS/springbootprojects4242020'
+git 'https://github.com/TomeshwarS/springbootprojects4242020/tree/master/app'
 
 }
 
@@ -14,4 +14,4 @@ sh 'mvn package'
 
 
 }
-© 2020 GitHub, Inc.
+
